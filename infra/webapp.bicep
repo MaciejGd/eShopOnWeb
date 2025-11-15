@@ -12,7 +12,6 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2022-09-01' = {
   }
   sku: {
     name: sku
-    tier: 'Free'
   }
 }
 resource appService 'Microsoft.Web/sites@2022-09-01' = {
